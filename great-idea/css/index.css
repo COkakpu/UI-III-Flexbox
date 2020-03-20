@@ -64,3 +64,213 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+nav{
+	width: 100%;
+	height: 170px;
+	display: flex;
+	
+}
+nav ul{
+	width: 75%;
+	display: flex;
+	justify-content: space-evenly;
+}
+nav ul a {
+	color: grey;;
+	text-decoration: none;
+	margin: 20px;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+nav ul a:hover{
+	text-decoration: line-through;
+
+}
+nav img{
+	align-items: baseline;
+	margin-left: 90px;
+	width: 180px;
+	margin-top: 20px;
+	height: 50px;
+	
+}
+.midPage{
+	display: flex;
+	width:100%;
+	padding-bottom: 70px;
+	border-bottom: 2px black solid;
+}
+.midPage p{
+	font-size: 70px;
+	text-align: center;
+	box-sizing: border-box;
+	font-family: cursive;
+	margin: auto;	
+}
+.midPage img{
+	height: 450px;
+	box-sizing: border-box;
+	margin-right: 50px;
+	
+}
+.midPage a{
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	margin: auto;
+	
+}
+.midPage a:hover{
+	background-color: rgb(108, 181, 206);
+	color: rgb(243, 242, 242);
+	border: 1px rgb(153, 150, 150) solid;
+} 
+.mainContent{
+	display: flex;
+	width: 100%;
+	height: 150px;
+	justify-content: space-around;
+	font-size: 20px;
+	padding-top: 50px;
+	
+}
+.box1{
+	width: 500px;
+}
+.box2{
+	width: 500px;
+}
+.middle-img{
+	margin: 50px 0px 40px 80px;
+	width: 1200px;
+}
+.lastBox{
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.box3{
+	width: 350px;
+	
+}
+.box4{
+	width: 350px;
+	;
+}
+.box5{
+	width: 350px;
+	
+}
+
+footer{
+	margin: 20px 20px 20px 100px;
+}
+footer p{
+	text-align: center;
+}
+/*Services paage css*/
+.wholePage{
+	display: flex;
+	flex-flow: wrap;
+	margin: 0 auto;
+	width: 1100px;
+	
+}
+.wholePage nav ul {
+	justify-content: space-between;
+
+
+}
+
+.services-header-img{
+	display: block;
+	margin-top:-70px ;
+	height: 250px;
+}
+.main-content{
+	height: 900px;
+	display: flex;
+	flex-flow: row wrap;
+	font-size: larger;
+	justify-content: space-between;
+	align-content: space-between;
+	border-bottom: 2px black solid;
+	padding-bottom: 100px;
+		
+}
+.digital{
+	width:500px;
+	height: 250px;
+	border: 1px black solid;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: rgba(241, 237, 237, 0.507);
+
+}
+.digital a{
+	border: 1px black solid;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 18px;
+	padding: 8px 35px;
+	color: black;
+	font-size: 20px;
+	background-color: white;
+}
+.digital a:hover{
+	background-color: black;
+	color: white;
+	
+}
+.service{
+	box-sizing: border-box;
+	display: block;
+	margin: 40px 0px 60px 0px;
+	border-bottom: 2px solid black;
+	padding-bottom: 65px;
+}
+.service h2{
+	font-size: 35px;
+}
+.service p{
+	font-size: 19px;
+}
+.bPage{
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+	
+
+.bottomPage{
+	box-sizing: border-box;
+	font-size: 20px;	
+	width: 500px;
+	height: 400px;
+	margin-right: 100px;
+	
+
+}
+.bottomPage ul{
+	box-sizing: border-box;
+	margin-top: 30px;
+	list-style-type: circle ;
+}
+.services-info-img{
+	width: 500px;
+	height: 400px;
+}
+.servicesBtm{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
