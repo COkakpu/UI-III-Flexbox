@@ -93,7 +93,7 @@ nav img{
 	margin-left: 90px;
 	width: 180px;
 	margin-top: 20px;
-	height: 70px;
+	height: 50px;
 	
 }
 .midPage{
@@ -173,4 +173,104 @@ footer{
 }
 footer p{
 	text-align: center;
+}
+/*Services paage css*/
+.wholePage{
+	display: flex;
+	flex-flow: wrap;
+	margin: 0 auto;
+	width: 1100px;
+	
+}
+.wholePage nav ul {
+	justify-content: space-between;
+
+
+}
+
+.services-header-img{
+	display: block;
+	margin-top:-70px ;
+	height: 250px;
+}
+.main-content{
+	height: 900px;
+	display: flex;
+	flex-flow: row wrap;
+	font-size: larger;
+	justify-content: space-between;
+	align-content: space-between;
+	border-bottom: 2px black solid;
+	padding-bottom: 100px;
+		
+}
+.digital{
+	width:500px;
+	height: 250px;
+	border: 1px black solid;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: rgba(241, 237, 237, 0.507);
+
+}
+.digital a{
+	border: 1px black solid;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 18px;
+	padding: 8px 35px;
+	color: black;
+	font-size: 20px;
+	background-color: white;
+}
+.digital a:hover{
+	background-color: black;
+	color: white;
+	
+}
+.service{
+	box-sizing: border-box;
+	display: block;
+	margin: 40px 0px 60px 0px;
+	border-bottom: 2px solid black;
+	padding-bottom: 65px;
+}
+.service h2{
+	font-size: 35px;
+}
+.service p{
+	font-size: 19px;
+}
+.bPage{
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+	
+
+.bottomPage{
+	box-sizing: border-box;
+	font-size: 20px;	
+	width: 500px;
+	height: 400px;
+	margin-right: 100px;
+	
+
+}
+.bottomPage ul{
+	box-sizing: border-box;
+	margin-top: 30px;
+	list-style-type: circle ;
+}
+.services-info-img{
+	width: 500px;
+	height: 400px;
+}
+.servicesBtm{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+
 }
